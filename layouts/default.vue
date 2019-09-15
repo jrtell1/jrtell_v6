@@ -7,18 +7,18 @@
         </div>
         <div class="flex flex-grow items-center">
           <div class="flex text-md -mx-4">
-            <a href="#responsive-header" class="block px-4 whitespace-no-wrap">
+            <nuxt-link to="/projects" class="block px-4 whitespace-no-wrap">
               Projects
-            </a>
-            <a href="#responsive-header" class="block px-4 whitespace-no-wrap">
+            </nuxt-link>
+            <nuxt-link to="/work-history" class="block px-4 whitespace-no-wrap">
               Work history
-            </a>
-            <a href="#responsive-header" class="block px-4 whitespace-no-wrap">
+            </nuxt-link>
+            <nuxt-link to="/proficiencies" class="block px-4 whitespace-no-wrap">
               Proficiencies
-            </a>
+            </nuxt-link>
           </div>
           <div class="flex-grow flex justify-end">
-            <a href="#" class="inline-block px-4 py-2 whitespace-no-wrap">Contact me</a>
+            <nuxt-link to="/contact" class="inline-block px-4 py-2 whitespace-no-wrap">Contact me</nuxt-link>
           </div>
         </div>
       </nav>

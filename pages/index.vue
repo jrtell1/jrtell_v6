@@ -49,7 +49,7 @@
             I'm always working on something. I'm either rebuilding my personal portfolio website or working on some other side project.
           </p>
           <p class="text-lg">Always pushing to use the latest, but still mature, technologies.</p>
-          <a class="button">Check out my skills</a>
+          <nuxt-link to="/proficiencies" class="button">Check out my skills</nuxt-link>
         </div>
       </div>
     </div>
