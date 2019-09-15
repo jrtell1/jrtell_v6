@@ -64,7 +64,6 @@
           <p class="text-xl" data-aos="fade-up" data-aos-delay="50">Employed full-time and freelancing on the side.</p>
           <div data-aos="fade-up" data-aos-delay="100">
             <a class="button" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a>
-            <a class="button" href="https://github.com/jrtell1" target="_blank" rel="noopener noreferrer">Contact me on GitHub</a>
           </div>
         </div>
         <div class="w-64 h-64 flex-shrink-0">
