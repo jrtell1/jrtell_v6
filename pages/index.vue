@@ -29,7 +29,7 @@
         <p class="text-lg">I utilize modern frameworks and best practices, while still creating a unique design and tailored solution. For an awesome result.</p>
 
         <div class="flex items-center justify-center">
-          <nuxt-link class="inline-block my-6 py-4 px-6 bg-blue-600 border-blue-600 rounded-full text-white" to="/projects">Check out my latest projects</nuxt-link>
+          <nuxt-link class="button" to="/projects">Check out my latest projects</nuxt-link>
         </div>
       </div>
 
@@ -49,7 +49,7 @@
             I'm always working on something. I'm either rebuilding my personal portfolio website or working on some other side project.
           </p>
           <p class="text-lg">Always pushing to use the latest, but still mature, technologies.</p>
-          <a class="inline-block my-6 py-4 px-6 bg-blue-600 border-blue-600 rounded-full text-white">Check out my skills</a>
+          <a class="button">Check out my skills</a>
         </div>
       </div>
     </div>
@@ -59,7 +59,7 @@
         <div class="py-4 px-4 flex flex-col items-center max-w-2xl">
           <h2 class="second-subtitle text-4xl">Current occupation.</h2>
           <p class="text-xl">Employed full-time and freelancing on the side.</p>
-          <a class="inline-block my-6 py-4 px-6 bg-blue-600 border-blue-600 rounded-full text-white" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a>
+          <a class="button" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a>
         </div>
         <div class="w-64 h-64 flex-shrink-0">
           <img src="/undraw_work_time_lhoj.svg" alt="Programmer illustration">
