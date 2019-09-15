@@ -22,34 +22,34 @@
 
     <div class="container mx-auto py-32 text-center flex justify-around items-center flex-col sm:flex-row">
       <div class="flex flex-col justify-center max-w-2xl p-4">
-        <h2 class="second-subtitle text-3xl">
+        <h2 class="second-subtitle text-3xl" data-aos="fade-up">
           I create and design fully-featured web applications.
         </h2>
-        <p class="text-lg">I build fast loading and reliable websites and web applications, with design and security in mind.</p>
-        <p class="text-lg">I utilize modern frameworks and best practices, while still creating a unique design and tailored solution. For an awesome result.</p>
+        <p class="text-lg" data-aos="fade-up" data-aos-delay="50">I build fast loading and reliable websites and web applications, with design and security in mind.</p>
+        <p class="text-lg" data-aos="fade-up" data-aos-delay="100">I utilize modern frameworks and best practices, while still creating a unique design and tailored solution. For an awesome result.</p>
 
         <div class="flex items-center justify-center">
-          <nuxt-link class="button" to="/projects">Check out my latest projects</nuxt-link>
+          <nuxt-link class="button" to="/projects" data-aos="fade-up" data-aos-delay="150">Check out my latest projects</nuxt-link>
         </div>
       </div>
 
       <div class="w-64 h-64 flex-shrink-0">
-        <img src="/undraw_laravel_and_vue_59tp.svg" alt="Programmer illustration">
+        <img data-aos="fade-up" src="/undraw_laravel_and_vue_59tp.svg" alt="Programmer illustration">
       </div>
     </div>
 
     <div class="bg-gray-800 py-48 skewed">
       <div class="container mx-auto text-center flex justify-around items-center flex-col sm:flex-row">
         <div class="w-64 h-64 flex-shrink-0">
-          <img src="/undraw_developer_activity_bv83.svg" alt="Programmer illustration">
+          <img data-aos="fade-up" src="/undraw_developer_activity_bv83.svg" alt="Programmer illustration">
         </div>
         <div class="py-4 px-4 flex flex-col items-center max-w-2xl text-gray-300">
-          <h2 class="second-subtitle text-4xl text-gray-200">I'm a developer with passion.</h2>
-          <p class="text-lg">
+          <h2 class="second-subtitle text-4xl text-gray-200" data-aos="fade-up">I'm a developer with passion.</h2>
+          <p class="text-lg" data-aos="fade-up" data-aos-delay="50">
             I'm always working on something. I'm either rebuilding my personal portfolio website or working on some other side project.
           </p>
-          <p class="text-lg">Always pushing to use the latest, but still mature, technologies.</p>
-          <nuxt-link to="/proficiencies" class="button">Check out my skills</nuxt-link>
+          <p class="text-lg" data-aos="fade-up" data-aos-delay="100">Always pushing to use the latest, but still mature, technologies.</p>
+          <nuxt-link to="/proficiencies" class="button" data-aos="fade-up" data-aos-delay="150">Check out my skills</nuxt-link>
         </div>
       </div>
     </div>
@@ -57,12 +57,12 @@
     <div class="py-48">
       <div class="container mx-auto text-center flex justify-around items-center flex-col sm:flex-row">
         <div class="py-4 px-4 flex flex-col items-center max-w-2xl">
-          <h2 class="second-subtitle text-4xl">Current occupation.</h2>
-          <p class="text-xl">Employed full-time and freelancing on the side.</p>
-          <a class="button" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a>
+          <h2 class="second-subtitle text-4xl" data-aos="fade-up">Current occupation.</h2>
+          <p class="text-xl" data-aos="fade-up" data-aos-delay="50">Employed full-time and freelancing on the side.</p>
+          <a class="button" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="100">Contact me on LinkedIn</a>
         </div>
         <div class="w-64 h-64 flex-shrink-0">
-          <img src="/undraw_work_time_lhoj.svg" alt="Programmer illustration">
+          <img data-aos="fade-up" src="/undraw_work_time_lhoj.svg" alt="Programmer illustration">
         </div>
       </div>
     </div>
