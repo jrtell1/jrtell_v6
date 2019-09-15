@@ -10,7 +10,6 @@
           <nuxt-link to="/projects" class="link">Projects</nuxt-link>
           <nuxt-link to="/work-history" class="link">Work history</nuxt-link>
           <nuxt-link to="/proficiencies" class="link">Proficiencies</nuxt-link>
-          <nuxt-link to="/contact" class="link">Contact me</nuxt-link>
         </div>
       </div>
     </nav>
