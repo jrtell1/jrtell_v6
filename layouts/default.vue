@@ -17,6 +17,11 @@
 <style>
   body {
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+  }
+
+  html {
+    overflow-x: hidden;
   }
 
   .page-enter-active {
