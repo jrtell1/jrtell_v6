@@ -3,7 +3,11 @@
     <div class="hero bg-cover bg-center text-white">
       <div class="container mx-auto pt-48 pb-24 flex justify-center">
         <div class="p-4 lg:w-3/5 flex flex-col items-center">
-          <img class="rounded-full mr-4 shadow-lg border-4 h-48 w-48 pointer-events-none" src="https://media.licdn.com/dms/image/C4D03AQEB3J6LLFWEmg/profile-displayphoto-shrink_200_200/0?e=1574294400&v=beta&t=XXHS801SgSqyb2b-9JlUOwsUJyh50cSgbR0WEGo-t0s" alt="portrait">
+          <img
+            class="rounded-full mr-4 shadow-lg border-4 h-48 w-48 pointer-events-none"
+            src="https://res.cloudinary.com/jrtell/image/upload/c_fill,f_auto,g_face,h_184,q_auto,w_184/v1552242867/jrtell/20190310_155108.jpg"
+            alt="portrait"
+          >
           <div class="flex flex-col items-center">
             <h1 class="text-3xl sm:text-5xl font-bold">John-Robin Tell</h1>
             <h2 class="text-2xl sm:text-4xl">Fullstack Developer</h2>
