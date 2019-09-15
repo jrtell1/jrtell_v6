@@ -55,8 +55,6 @@
     },
 
     mounted() {
-      console.log(this.$route);
-
       if (process.browser) {
         this.hasScrolled = window.scrollY > 0;
       }
