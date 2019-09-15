@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto pt-32">
+  <div class="container mx-auto pt-48">
     <div class="project">
       <div class="project__image" data-aos="fade-right">
         <img class="w-full" src="https://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_300/v1565694490/jrtell/Opera_Snapshot_2019-09-15_174252_localhost">
