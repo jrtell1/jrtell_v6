@@ -33,7 +33,7 @@
           return 'bg-white text-black shadow-lg';
         }
 
-        return this.hasScrolled ? 'bg-white text-black shadow-lg' : 'text-white';
+        return this.hasScrolled ? 'bg-white text-gray-700 shadow-lg' : 'text-white';
       }
     },
 
