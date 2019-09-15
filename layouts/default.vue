@@ -1,32 +1,18 @@
 <template>
   <div>
-    <div class="sticky top-0 bg-white overflow-x-auto shadow-lg z-10">
-      <nav class="container mx-auto flex items-center justify-between text-black py-6 px-4">
-        <div class="flex items-center flex-shrink-0 mr-6">
-          <nuxt-link to="/" class="font-semibold text-2xl tracking-tight">John-Robin Tell</nuxt-link>
-        </div>
-        <div class="flex flex-grow items-center">
-          <div class="flex text-md -mx-4">
-            <nuxt-link to="/projects" class="block px-4 whitespace-no-wrap">
-              Projects
-            </nuxt-link>
-            <nuxt-link to="/work-history" class="block px-4 whitespace-no-wrap">
-              Work history
-            </nuxt-link>
-            <nuxt-link to="/proficiencies" class="block px-4 whitespace-no-wrap">
-              Proficiencies
-            </nuxt-link>
-          </div>
-          <div class="flex-grow flex justify-end">
-            <nuxt-link to="/contact" class="inline-block px-4 py-2 whitespace-no-wrap">Contact me</nuxt-link>
-          </div>
-        </div>
-      </nav>
-    </div>
+    <navigation/>
 
-    <nuxt />
+    <nuxt/>
   </div>
 </template>
+
+<script>
+  import Navigation from '../components/navigation';
+
+  export default {
+    components: { Navigation }
+  };
+</script>
 
 <style>
   body {
