@@ -7,7 +7,7 @@
       <div class="flex flex-grow items-center">
         <div class="flex-grow flex justify-end">
           <nuxt-link to="/" class="link link--home">Home</nuxt-link>
-          <nuxt-link to="/projects" class="link">Projects</nuxt-link>
+          <nuxt-link to="/projects" class="link">My Projects</nuxt-link>
           <nuxt-link to="/work-history" class="link">Work history</nuxt-link>
           <nuxt-link to="/proficiencies" class="link">Proficiencies</nuxt-link>
         </div>
@@ -29,10 +29,10 @@
     computed: {
       dynamicClasses() {
         if (this.$route.path !== '/') {
-          return 'bg-white text-black shadow-lg';
+          return 'bg-white text-black shadow';
         }
 
-        return this.hasScrolled ? 'bg-white text-gray-700 shadow-lg' : 'text-white';
+        return this.hasScrolled ? 'bg-white text-gray-700 shadow' : 'text-white';
       }
     },
 
