@@ -22,8 +22,8 @@
         <h2 class="second-subtitle text-3xl px-4">
           I build websites and fully-featured web applications.
         </h2>
-        <p class="text-lg">My solutions are highly tailored to fit my clients needs. With design, speed, security and reliability in mind.</p>
-        <p class="text-lg">I utilize modern frameworks and best practices to do my best to achieve an awesome result.</p>
+        <p class="text-lg">I build fast loading and reliable websites and web applications, with design and security in mind.</p>
+        <p class="text-lg">I utilize modern frameworks and best practices, while still creating a unique design and tailored solution. For an awesome result.</p>
 
         <div class="flex items-center justify-center">
           <nuxt-link class="inline-block my-6 py-4 px-6 bg-blue-600 border-blue-600 rounded-full text-white" to="/projects">Check out my latest projects</nuxt-link>
@@ -81,5 +81,11 @@
 
   .skewed {
     clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+  }
+
+  .second-subtitle {
+    font-weight: 300;
+    color: #526488;
+    word-spacing: 5px;
   }
 </style>
