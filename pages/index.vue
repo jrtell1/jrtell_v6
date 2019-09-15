@@ -34,14 +34,14 @@
       </div>
 
       <div class="w-64 h-64 flex-shrink-0">
-        <img data-aos="fade-up" src="/undraw_laravel_and_vue_59tp.svg" alt="Programmer illustration">
+        <img data-aos="fade-left" src="/undraw_laravel_and_vue_59tp.svg" alt="illustration">
       </div>
     </div>
 
     <div class="bg-gray-800 py-48 skewed">
       <div class="container mx-auto text-center flex justify-around items-center flex-col sm:flex-row">
         <div class="w-64 h-64 flex-shrink-0">
-          <img data-aos="fade-up" src="/undraw_developer_activity_bv83.svg" alt="Programmer illustration">
+          <img data-aos="fade-down-right" src="/undraw_developer_activity_bv83.svg" alt="illustration">
         </div>
         <div class="py-4 px-4 flex flex-col items-center max-w-2xl text-gray-300">
           <h2 class="second-subtitle text-4xl text-gray-200" data-aos="fade-up">I'm a developer with passion.</h2>
@@ -66,7 +66,7 @@
           </div>
         </div>
         <div class="w-64 h-64 flex-shrink-0">
-          <img data-aos="fade-up" src="/undraw_work_time_lhoj.svg" alt="Programmer illustration">
+          <img data-aos="fade-up-left" src="/undraw_work_time_lhoj.svg" alt="illustration">
         </div>
       </div>
     </div>
