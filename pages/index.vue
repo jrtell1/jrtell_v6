@@ -6,7 +6,7 @@
           <img
             data-aos="zoom-in"
             class="rounded-full mr-4 shadow-lg border-4 h-48 w-48 pointer-events-none"
-            src="https://res.cloudinary.com/jrtell/image/upload/c_fill,f_auto,g_face,h_184,q_auto,w_184/v1552242867/jrtell/20190310_155108.jpg"
+            src="https://res.cloudinary.com/jrtell/image/upload/c_fill,f_auto,g_face,h_184,q_auto,w_184/v1552242867/jrtell/20190310_155108"
             alt="portrait"
           >
           <div class="flex flex-col items-center">
