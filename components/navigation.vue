@@ -6,7 +6,7 @@
       </div>
       <div class="flex flex-grow items-center">
         <div class="flex-grow flex justify-end">
-          <nuxt-link to="/" class="link sm:hidden">Home</nuxt-link>
+          <nuxt-link to="/" class="link link--home">Home</nuxt-link>
           <nuxt-link to="/projects" class="link">Projects</nuxt-link>
           <nuxt-link to="/work-history" class="link">Work history</nuxt-link>
           <nuxt-link to="/proficiencies" class="link">Proficiencies</nuxt-link>
@@ -70,16 +70,21 @@
     @apply block px-4 py-2 whitespace-no-wrap;
   }
 
+  @screen sm {
+    .link--home {
+      @apply hidden;
+    }
+  }
+
   .link::before,
   .link::after {
-    display: inline-block;
-    opacity: 0;
+    @apply inline-block opacity-0;
     transition: transform 0.3s, opacity 0.2s;
   }
 
   .link:hover::before,
   .link:hover::after {
-    opacity: 1;
+    @apply opacity-100;
     transform: translateX(0);
   }
 
@@ -96,16 +101,16 @@
   }
 
   .nuxt-link-exact-active::before {
+    @apply opacity-100;
     margin-right: 10px;
     content: '{';
-    opacity: 1;
     transform: translateX(0);
   }
 
   .nuxt-link-exact-active::after {
+    @apply opacity-100;
     margin-left: 10px;
     content: '}';
-    opacity: 1;
     transform: translateX(0);
   }
 </style>
