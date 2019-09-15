@@ -18,31 +18,47 @@
     </div>
 
     <div class="container mx-auto py-32 text-center flex justify-around items-center flex-col sm:flex-row">
-      <div class="flex flex-col justify-center">
+      <div class="flex flex-col justify-center max-w-2xl">
         <h2 class="second-subtitle text-3xl px-4">
           I build websites and fully-featured web applications.
         </h2>
-        <p class="text-xl">Employed full-time and freelancing on the side</p>
+        <p class="text-lg">My solutions are highly tailored to fit my clients needs. With design, speed, security and reliability in mind.</p>
+        <p class="text-lg">I utilize modern frameworks and best practices to do my best to achieve an awesome result.</p>
 
         <div class="flex items-center justify-center">
           <nuxt-link class="inline-block my-6 py-4 px-6 bg-blue-600 border-blue-600 rounded-full text-white" to="/projects">Check out my latest projects</nuxt-link>
         </div>
       </div>
 
-      <div class="w-64 h-64">
+      <div class="w-64 h-64 flex-shrink-0">
         <img src="/undraw_laravel_and_vue_59tp.svg" alt="Programmer illustration">
       </div>
     </div>
 
     <div class="bg-gray-100 py-48 skewed">
       <div class="container mx-auto text-center flex justify-around items-center flex-col sm:flex-row">
-        <div class="w-64 h-64">
-          <img src="/undraw_work_time_lhoj.svg" alt="Programmer illustration">
+        <div class="w-64 h-64 flex-shrink-0">
+          <img src="/undraw_developer_activity_bv83.svg" alt="Programmer illustration">
         </div>
-        <div class="py-4 px-4 flex flex-col items-center">
-          <h2 class="second-subtitle text-4xl">Current occupation</h2>
-          <p class="text-xl">Employed full-time and freelancing on the side</p>
-          <a class="inline-block my-6 py-4 px-6 bg-blue-600 border-blue-600 rounded-full text-white" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <div class="py-4 px-4 flex flex-col items-center max-w-2xl">
+          <h2 class="second-subtitle text-4xl">I'm a developer with passion.</h2>
+          <p class="text-xl">
+            I'm always working on something. I'm either rebuilding my personal portfolio website or working on some other side project.
+          </p>
+          <a class="inline-block my-6 py-4 px-6 bg-blue-600 border-blue-600 rounded-full text-white">Check out my skills</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-48">
+      <div class="container mx-auto text-center flex justify-around items-center flex-col sm:flex-row">
+        <div class="py-4 px-4 flex flex-col items-center max-w-2xl">
+          <h2 class="second-subtitle text-4xl">Current occupation.</h2>
+          <p class="text-xl">Employed full-time and freelancing on the side.</p>
+          <a class="inline-block my-6 py-4 px-6 bg-blue-600 border-blue-600 rounded-full text-white" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a>
+        </div>
+        <div class="w-64 h-64 flex-shrink-0">
+          <img src="/undraw_work_time_lhoj.svg" alt="Programmer illustration">
         </div>
       </div>
     </div>
@@ -64,11 +80,6 @@
   }
 
   .skewed {
-    clip-path: polygon(
-      0 25%,
-      100% 0,
-      100% 80%,
-      0 100%
-    );
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
   }
 </style>

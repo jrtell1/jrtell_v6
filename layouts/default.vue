@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="sticky top-0 bg-white overflow-x-auto shadow-lg">
+    <div class="sticky top-0 bg-white overflow-x-auto shadow-lg z-10">
       <nav class="container mx-auto flex items-center justify-between text-black py-6 px-4">
         <div class="flex items-center flex-shrink-0 mr-6">
           <nuxt-link to="/" class="font-semibold text-2xl tracking-tight">John-Robin Tell</nuxt-link>
