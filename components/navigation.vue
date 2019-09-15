@@ -1,5 +1,5 @@
 <template>
-  <div class="navigation fixed top-0 inset-x-0 overflow-x-auto z-10" :class="dynamicClasses">
+  <div class="navigation fixed top-0 inset-x-0 overflow-x-auto z-50" :class="dynamicClasses">
     <nav class="container mx-auto flex items-center justify-between py-4 px-4">
       <div class="hidden sm:flex items-center flex-shrink-0 mr-6">
         <nuxt-link to="/" class="link font-semibold text-2xl tracking-tight">John-Robin Tell</nuxt-link>
