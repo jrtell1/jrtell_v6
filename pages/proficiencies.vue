@@ -2,9 +2,9 @@
   <div class="container mx-auto pt-48">
     <div class="card mb-16">
       <div class="card__title">
-        <h2 class="text-3xl mr-8">Front-End</h2>
+        <h2 class="text-3xl mr-8" data-aos="fade-right">Front-End</h2>
       </div>
-      <div class="card__content">
+      <div class="card__content" data-aos="fade-up">
         <div class="proficiencies__column">
           <h4 class="proficiencies__title">Languages</h4>
           <ul class="proficiencies__list">
@@ -38,9 +38,9 @@
 
     <div class="card my-16">
       <div class="card__title">
-        <h2 class="text-3xl mr-8">Back-End</h2>
+        <h2 class="text-3xl mr-8" data-aos="fade-right">Back-End</h2>
       </div>
-      <div class="card__content">
+      <div class="card__content" data-aos="fade-up">
         <div class="proficiencies__column">
           <h4 class="proficiencies__title">Languages</h4>
           <ul class="proficiencies__list">
@@ -69,9 +69,9 @@
 
     <div class="card my-16">
       <div class="card__title">
-        <h2 class="text-3xl mr-8">DevOps</h2>
+        <h2 class="text-3xl mr-8" data-aos="fade-right">DevOps</h2>
       </div>
-      <div class="card__content">
+      <div class="card__content" data-aos="fade-up">
         <div class="proficiencies__column">
           <ul class="proficiencies__list">
             <li>Docker</li>
@@ -95,7 +95,7 @@
 
 <style scoped>
   .card {
-    @apply flex flex-col shadow;
+    @apply flex flex-col shadow overflow-hidden;
   }
 
   @screen sm {
