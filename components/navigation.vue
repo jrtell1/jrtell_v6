@@ -8,7 +8,7 @@
         <div class="flex-grow flex justify-end">
           <nuxt-link to="/" class="link link--home">Home</nuxt-link>
           <nuxt-link to="/projects" class="link">My Projects</nuxt-link>
-          <nuxt-link to="/work-history" class="link">Work history</nuxt-link>
+<!--          <nuxt-link to="/work-history" class="link">Work history</nuxt-link>-->
           <nuxt-link to="/proficiencies" class="link">Proficiencies</nuxt-link>
         </div>
       </div>
