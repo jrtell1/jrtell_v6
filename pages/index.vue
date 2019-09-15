@@ -28,8 +28,8 @@
         <p class="text-lg" data-aos="fade-up" data-aos-delay="50">I build fast loading and reliable websites and web applications, with design and security in mind.</p>
         <p class="text-lg" data-aos="fade-up" data-aos-delay="100">I utilize modern frameworks and best practices, while still creating a unique design and tailored solution. For an awesome result.</p>
 
-        <div class="flex items-center justify-center">
-          <nuxt-link class="button" to="/projects" data-aos="fade-up" data-aos-delay="150">Check out my latest projects</nuxt-link>
+        <div class="flex items-center justify-center" data-aos="fade-up" data-aos-delay="150">
+          <nuxt-link class="button" to="/projects">Check out my latest projects</nuxt-link>
         </div>
       </div>
 
@@ -49,7 +49,9 @@
             I'm always working on something. I'm either rebuilding my personal portfolio website or working on some other side project.
           </p>
           <p class="text-lg" data-aos="fade-up" data-aos-delay="100">Always pushing to use the latest, but still mature, technologies.</p>
-          <nuxt-link to="/proficiencies" class="button" data-aos="fade-up" data-aos-delay="150">Check out my skills</nuxt-link>
+          <div data-aos="fade-up" data-aos-delay="150">
+            <nuxt-link to="/proficiencies" class="button">Check out my skills</nuxt-link>
+          </div>
         </div>
       </div>
     </div>
@@ -59,7 +61,9 @@
         <div class="py-4 px-4 flex flex-col items-center max-w-2xl">
           <h2 class="second-subtitle text-4xl" data-aos="fade-up">Current occupation.</h2>
           <p class="text-xl" data-aos="fade-up" data-aos-delay="50">Employed full-time and freelancing on the side.</p>
-          <a class="button" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="100">Contact me on LinkedIn</a>
+          <div data-aos="fade-up" data-aos-delay="100">
+            <a class="button" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a>
+          </div>
         </div>
         <div class="w-64 h-64 flex-shrink-0">
           <img data-aos="fade-up" src="/undraw_work_time_lhoj.svg" alt="Programmer illustration">
