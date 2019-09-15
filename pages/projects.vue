@@ -57,7 +57,7 @@
   }
 
   .project__image {
-    @apply rounded-lg overflow-hidden h-auto w-64 shadow-lg flex-shrink-0;
+    @apply rounded-lg overflow-hidden h-auto w-64 shadow-lg flex-shrink-0 mb-4;
   }
 
   .project__title {
