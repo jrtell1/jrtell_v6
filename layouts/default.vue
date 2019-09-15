@@ -22,6 +22,7 @@
 
   html {
     overflow-x: hidden;
+    overflow-y: scroll;
   }
 
   .page-enter-active {
