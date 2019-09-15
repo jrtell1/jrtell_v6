@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto py-32">
+  <div class="container mx-auto pt-32">
     <div class="project">
       <div class="project__image">
         <img class="w-full" src="https://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_300/v1565694490/jrtell/Opera_Snapshot_2019-09-15_174252_localhost">
@@ -53,7 +53,7 @@
 
 <style scoped>
   .project {
-    @apply flex flex-col items-start mb-32;
+    @apply flex flex-col items-center mb-32;
   }
 
   .project__image {
@@ -70,7 +70,7 @@
 
   @screen sm {
     .project {
-      @apply flex-row;
+      @apply flex-row items-start;
     }
   }
 </style>
