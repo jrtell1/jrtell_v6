@@ -46,6 +46,11 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
   ],
+
+  purgeCSS: {
+    whitelist: ['nuxt-link-exact-active']
+  },
+
   /*
   ** Nuxt.js modules
   */
