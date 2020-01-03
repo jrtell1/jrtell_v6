@@ -53,9 +53,9 @@
 
     <div class="container mx-auto pb-64 flex flex-col items-center">
       <h2 class="second-subtitle text-4xl">
-        My <span class="text-indigo-400">clients</span> span from both businesses and individuals
+        What my <span class="text-indigo-400">clients</span> say
       </h2>
-      <div class="py-8">
+      <div class="py-12">
         <img class="w-48" data-aos="fade-up" src="/Rebel_Walls_Logo_tag.svg" alt="illustration">
       </div>
     </div>
