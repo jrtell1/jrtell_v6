@@ -35,10 +35,11 @@
 
       <div class="max-w-3xl p-4 z-10">
         <h2 class="second-subtitle text-4xl">
-          Hire me for projects and consulting
+          Hire me for <span class="text-indigo-400">projects</span> and <span class="text-indigo-400">consulting</span>
         </h2>
-        <p class="text-lg">I'm a quick learner with a mind for producing and delivering results.</p>
-        <p class="text-lg"></p>
+        <p class="text-lg">
+          I'm an incredibly driven and quick learner with a mind for producing and delivering results!
+        </p>
 
         <div data-aos="fade-up" data-aos-delay="150">
           <nuxt-link class="button" to="/projects">Check out some projects of mine</nuxt-link>
@@ -64,13 +65,13 @@
       </div>
     </div>
 
-    <div class="bg-gray-800 py-48 skewed">
-      <div class="container mx-auto text-center flex justify-around items-center flex-col sm:flex-row">
-        <div class="w-64 h-64 flex-shrink-0">
-          <img data-aos="fade-down-right" src="/undraw_developer_activity_bv83.svg" alt="illustration">
+    <div class="bg-gray-200 py-64 skewed relative">
+      <div class="container mx-auto flex justify-around flex-col sm:flex-row">
+        <div class="hidden lg:block opacity-75">
+          <img class="illustration git-illustration" data-aos="fade-right" src="/undraw_coding_6mjf.svg" alt="illustration">
         </div>
-        <div class="py-4 px-4 max-w-2xl text-gray-300">
-          <h2 class="second-subtitle text-4xl text-gray-200">I'm a developer with passion.</h2>
+        <div class="py-4 px-4 max-w-2xl z-10">
+          <h2 class="second-subtitle text-4xl">I'm a developer with passion.</h2>
           <p class="text-lg">
             I'm always working on something. I'm either rebuilding my personal portfolio website or working on some other side project.
           </p>
@@ -119,6 +120,13 @@
     height: 40rem;
     width: 40rem;
     left: -100px;
+    top: 0;
+  }
+
+  .git-illustration {
+    height: 40rem;
+    width: 40rem;
+    left: -200px;
     top: 0;
   }
 
