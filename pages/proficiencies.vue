@@ -1,5 +1,9 @@
 <template>
   <div class="container mx-auto pt-20">
+    <h1 class="text-3xl sm:text-5xl px-4 mb-8 font-bold text-indigo-600" data-aos="fade-right" data-aos-delay="50">
+      Proficiencies
+    </h1>
+
     <div class="card mb-16">
       <div class="card__title">
         <h2 class="text-3xl mr-8" data-aos="fade-right">Front-End</h2>
