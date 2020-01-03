@@ -2,7 +2,7 @@
   <div>
     <div>
       <div class="container mx-auto pt-48 pb-64 flex justify-center">
-        <div class="p-4 w-full max-w-5xl">
+        <div class="p-4 w-full max-w-5xl relative">
           <div>
             <div class="z-10 w-full max-w-md">
               <h1 class="text-3xl sm:text-5xl font-bold text-indigo-600" data-aos="fade-right" data-aos-delay="50">
@@ -56,8 +56,8 @@
         <h2 class="second-subtitle text-4xl">
           Some of my <span class="text-indigo-400">clients</span>
         </h2>
-        <div class="flex justify-around my-8 shadow-lg rounded-lg" data-aos="fade-up">
-          <img class="w-48 px-4" src="/Rebel_Walls_Logo_tag.svg" alt="illustration">
+        <div class="sm:flex justify-around my-8 shadow-lg rounded-lg" data-aos="fade-up">
+          <img class="w-48 p-4" src="/Rebel_Walls_Logo_tag.svg" alt="illustration">
           <div class="px-4">
             <h3 class="text-2xl font-semibold mt-4">Rebel Walls</h3>
             <p>A high-quality premium wall murals producing business with customers all around the globe.</p>
@@ -67,8 +67,8 @@
       </div>
     </div>
 
-    <div class="bg-gray-100 py-64 skewed relative">
-      <div class="container mx-auto flex justify-around flex-col sm:flex-row">
+    <div class="bg-gray-100 py-64 skewed">
+      <div class="container mx-auto flex justify-between flex-col sm:flex-row relative">
         <div class="hidden lg:block opacity-75">
           <img class="illustration git-illustration" data-aos="fade-right" src="/undraw_coding_6mjf.svg" alt="illustration">
         </div>
@@ -114,22 +114,22 @@
   .dev-illustration {
     height: 60rem;
     width: 60rem;
-    right: -250px;
-    top: 0;
+    left: 450px;
+    top: -300px;
   }
 
   .hire-illustration {
     height: 40rem;
     width: 40rem;
-    left: -100px;
-    top: 0;
+    left: -120px;
+    top: 50px;
   }
 
   .git-illustration {
     height: 40rem;
     width: 40rem;
-    left: -200px;
-    top: 0;
+    left: -100px;
+    top: -200px;
   }
 
   .skewed {
