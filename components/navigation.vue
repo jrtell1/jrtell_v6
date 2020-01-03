@@ -5,7 +5,7 @@
         <nuxt-link to="/" class="link font-semibold text-2xl tracking-tight">John-Robin Tell</nuxt-link>
       </div>
       <div class="flex flex-grow items-center">
-        <div class="flex-grow flex justify-end">
+        <div class="flex-grow flex sm:justify-end">
           <nuxt-link to="/" class="link link--home">Home</nuxt-link>
           <nuxt-link to="/projects" class="link">Projects</nuxt-link>
 <!--          <nuxt-link to="/work-history" class="link">Work history</nuxt-link>-->
