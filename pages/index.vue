@@ -52,7 +52,7 @@
     </div>
 
     <div class="container mx-auto pb-64 flex flex-col items-center">
-      <div>
+      <div class="px-4">
         <h2 class="second-subtitle text-4xl">
           Some of my <span class="text-indigo-400">clients</span>
         </h2>

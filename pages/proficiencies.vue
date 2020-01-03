@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto pt-48">
+  <div class="container mx-auto pt-20">
     <div class="card mb-16">
       <div class="card__title">
         <h2 class="text-3xl mr-8" data-aos="fade-right">Front-End</h2>
