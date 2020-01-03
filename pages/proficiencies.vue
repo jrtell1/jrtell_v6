@@ -117,7 +117,7 @@
     transition: all 100ms ease-out;
     content: '';
     clip-path: polygon(0 0, 0% 0%, 0% 100%, 0 100%);
-    @apply block absolute inset-0 z-0 bg-blue-900;
+    @apply block absolute inset-0 z-0 bg-indigo-500;
   }
 
   .card:hover .card__title {
@@ -157,8 +157,7 @@
     height: 10px;
     width: 10px;
     margin-right: 5px;
-    background: #1c5ca0;
 
-    @apply inline-block;
+    @apply inline-block bg-indigo-500;
   }
 </style>
