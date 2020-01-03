@@ -5,7 +5,7 @@
         Projects
       </h1>
       <h2 class="text-2xl sm:text-3xl" data-aos="fade-right" data-aos-delay="100">
-        Below are a few personal projects of note
+        Below are my latest personal projects of note
       </h2>
     </div>
 
@@ -40,21 +40,21 @@
       </div>
     </div>
 
-    <div class="project">
-      <div class="project__image" data-aos="fade-right" data-aos-delay="150">
-        <img class="w-full" src="https://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_300/v1552838252/jrtell/hemlagat">
-      </div>
-      <div class="project__content">
-        <h2 class="project__title" data-aos="fade-up">Restaurang Hemlagat</h2>
-        <p data-aos="fade-up" data-aos-delay="50">
-          My first jamstack!<br>
-          The objective was to create a quick and simple website. I decided to use Nuxt.js and its
-          static site generator, combined with Netlify for hosting and deployment.<br>
-          The lunch menu needed to be dynamically updated by non-technical users. I settled for Contentful as the headless CMS and backend for this.
-        </p>
-        <a class="button" href="https://hemlagatjonkoping.se/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="100">Check it out</a>
-      </div>
-    </div>
+<!--    <div class="project">-->
+<!--      <div class="project__image" data-aos="fade-right" data-aos-delay="150">-->
+<!--        <img class="w-full" src="https://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_300/v1552838252/jrtell/hemlagat">-->
+<!--      </div>-->
+<!--      <div class="project__content">-->
+<!--        <h2 class="project__title" data-aos="fade-up">Restaurang Hemlagat</h2>-->
+<!--        <p data-aos="fade-up" data-aos-delay="50">-->
+<!--          My first jamstack!<br>-->
+<!--          The objective was to create a quick and simple website. I decided to use Nuxt.js and its-->
+<!--          static site generator, combined with Netlify for hosting and deployment.<br>-->
+<!--          The lunch menu needed to be dynamically updated by non-technical users. I settled for Contentful as the headless CMS and backend for this.-->
+<!--        </p>-->
+<!--        <a class="button" href="https://hemlagatjonkoping.se/" target="_blank" rel="noopener noreferrer" data-aos="fade-up" data-aos-delay="100">Check it out</a>-->
+<!--      </div>-->
+<!--    </div>-->
   </div>
 </template>
 
