@@ -1,5 +1,14 @@
 <template>
   <div class="container mx-auto pt-20">
+    <div class="mb-12">
+      <h1 class="text-3xl sm:text-5xl font-bold text-indigo-600" data-aos="fade-right" data-aos-delay="50">
+        Projects
+      </h1>
+      <h2 class="text-2xl sm:text-3xl" data-aos="fade-right" data-aos-delay="100">
+        Below are a few personal projects of note
+      </h2>
+    </div>
+
 <!--    <div class="project">-->
 <!--      <div class="project__image" data-aos="fade-right">-->
 <!--        <img class="w-full" src="https://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_300/v1565694490/jrtell/Opera_Snapshot_2019-09-15_174252_localhost">-->
@@ -65,7 +74,7 @@
   }
 
   .project__title {
-    @apply text-4xl;
+    @apply text-4xl font-semibold;
   }
 
   .project__content {
