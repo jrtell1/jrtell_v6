@@ -2,7 +2,9 @@
   <div>
     <navigation/>
 
-    <nuxt/>
+    <div class="mt-24">
+      <nuxt/>
+    </div>
   </div>
 </template>
 
@@ -39,16 +41,16 @@
   }
 
   .button {
-    transition: all .1s ease-out;
-    @apply inline-block my-6 py-4 px-6 bg-blue-600 border-blue-600 rounded-full text-white cursor-pointer;
+    transition: all .25s ease-out;
+    @apply inline-block my-6 px-8 bg-indigo-500 rounded text-white cursor-pointer h-12 inline-flex items-center;
   }
 
-  .button:hover {
-    transform: translateY(-1px);
-    @apply bg-blue-800;
+  .button:hover,
+  .button:focus {
+    @apply bg-indigo-400;
   }
 
   .button:active {
-    transform: translateY(1px);
+    @apply bg-indigo-600;
   }
 </style>

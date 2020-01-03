@@ -1,5 +1,5 @@
 <template>
-  <div class="navigation fixed top-0 inset-x-0 overflow-x-auto z-50" :class="dynamicClasses">
+  <div class="fixed top-0 inset-x-0 overflow-x-auto z-50 bg-white text-gray-800 shadow">
     <nav class="container mx-auto flex items-center justify-between py-4 px-4">
       <div class="hidden sm:flex items-center flex-shrink-0 mr-6">
         <nuxt-link to="/" class="link font-semibold text-2xl tracking-tight">John-Robin Tell</nuxt-link>
@@ -19,52 +19,10 @@
 <script>
   export default {
     name: 'navigation',
-
-    data() {
-      return {
-        hasScrolled: false
-      }
-    },
-
-    computed: {
-      dynamicClasses() {
-        if (this.$route.path !== '/') {
-          return 'bg-white text-black shadow';
-        }
-
-        return this.hasScrolled ? 'bg-white text-gray-700 shadow' : 'text-white';
-      }
-    },
-
-    methods: {
-      onScroll() {
-        this.hasScrolled = window.scrollY > 0;
-      }
-    },
-
-    created() {
-      if (process.browser) {
-        window.addEventListener('scroll', this.onScroll);
-      }
-    },
-
-    mounted() {
-      if (process.browser) {
-        this.hasScrolled = window.scrollY > 0;
-      }
-    },
-
-    destroyed() {
-      window.removeEventListener('scroll', this.onScroll);
-    }
   };
 </script>
 
 <style scoped>
-  .navigation {
-    transition: all .2s ease-out;
-  }
-
   .link {
     @apply block px-4 py-2 whitespace-no-wrap;
   }

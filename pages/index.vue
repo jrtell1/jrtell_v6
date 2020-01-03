@@ -1,33 +1,58 @@
 <template>
   <div>
-    <div class="hero bg-cover bg-center text-white">
-      <div class="container mx-auto pt-48 pb-24 flex justify-center">
-        <div class="p-4 lg:w-3/5 flex flex-col items-center">
-          <img
-            data-aos="zoom-in"
-            class="rounded-full mr-4 shadow-lg border-4 h-48 w-48 pointer-events-none"
-            src="https://res.cloudinary.com/jrtell/image/upload/c_fill,f_auto,g_face,h_184,q_auto,w_184/v1552242867/jrtell/20190310_155108"
-            alt="portrait"
-          >
-          <div class="flex flex-col items-center">
-            <h1 class="text-3xl sm:text-5xl font-bold" data-aos="fade-up" data-aos-delay="50">John-Robin Tell</h1>
-            <h2 class="text-2xl sm:text-4xl" data-aos="fade-up" data-aos-delay="100">Fullstack Developer</h2>
+    <div>
+      <div class="container mx-auto pt-48 pb-64 flex justify-center">
+        <div class="p-4 w-full max-w-5xl">
+          <div>
+            <div class="z-10 w-full max-w-md">
+              <h1 class="text-3xl sm:text-5xl font-bold text-indigo-600" data-aos="fade-right" data-aos-delay="50">
+                John-Robin Tell
+              </h1>
+              <h2 class="text-2xl sm:text-3xl" data-aos="fade-right" data-aos-delay="100">
+                Fullstack Web Developer and consultant based out of <span class="text-indigo-400">Borås</span>
+              </h2>
+              <div data-aos="fade-up" data-aos-delay="150">
+                <a class="button" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="hidden lg:block opacity-75">
+            <img class="illustration dev-illustration" data-aos="fade-left" src="/undraw_work_time_lhoj.svg" alt="illustration">
           </div>
         </div>
       </div>
-      <div>
-<!--        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,224L34.3,213.3C68.6,203,137,181,206,160C274.3,139,343,117,411,128C480,139,549,181,617,181.3C685.7,181,754,139,823,101.3C891.4,64,960,32,1029,21.3C1097.1,11,1166,21,1234,21.3C1302.9,21,1371,11,1406,5.3L1440,0L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>-->
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,224L48,213.3C96,203,192,181,288,181.3C384,181,480,203,576,213.3C672,224,768,224,864,208C960,192,1056,160,1152,133.3C1248,107,1344,85,1392,74.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+<!--      <div class="illustrations hidden lg:block">-->
+<!--        <img class="illustrations__dev" data-aos="fade-left" src="/undraw_work_time_lhoj.svg" alt="illustration">-->
+<!--      </div>-->
+    </div>
+
+    <div class="container mx-auto py-64 flex justify-between flex-col sm:flex-row relative">
+      <div class="hidden lg:block opacity-75">
+        <img class="illustration hire-illustration" data-aos="fade-right" src="/undraw_version_control_9bpv.svg" alt="illustration">
+      </div>
+
+      <div class="max-w-3xl p-4 z-10">
+        <h2 class="second-subtitle text-4xl">
+          Hire me for projects and consulting
+        </h2>
+        <p class="text-lg">I'm a quick learner with a mind for producing and delivering results.</p>
+        <p class="text-lg"></p>
+
+        <div data-aos="fade-up" data-aos-delay="150">
+          <nuxt-link class="button" to="/projects">Check out some projects of mine</nuxt-link>
+        </div>
       </div>
     </div>
 
     <div class="container mx-auto py-32 text-center flex justify-around items-center flex-col sm:flex-row">
-      <div class="flex flex-col justify-center max-w-2xl p-4">
-        <h2 class="second-subtitle text-3xl" data-aos="fade-up">
+      <div class="max-w-2xl p-4">
+        <h2 class="second-subtitle text-3xl">
           I create and design fully-featured web applications.
         </h2>
-        <p class="text-lg" data-aos="fade-up" data-aos-delay="50">I build fast loading and reliable websites and web applications, with design and security in mind.</p>
-        <p class="text-lg" data-aos="fade-up" data-aos-delay="100">I utilize modern frameworks and best practices, while still creating a unique design and tailored solution. For an awesome result.</p>
+        <p class="text-lg">I build fast loading and reliable websites and web applications, with design and security in mind.</p>
+        <p class="text-lg">I utilize modern frameworks and best practices, while still creating a unique design and tailored solution. For an awesome result.</p>
 
         <div class="flex items-center justify-center" data-aos="fade-up" data-aos-delay="150">
           <nuxt-link class="button" to="/projects">Check out my latest projects</nuxt-link>
@@ -44,30 +69,15 @@
         <div class="w-64 h-64 flex-shrink-0">
           <img data-aos="fade-down-right" src="/undraw_developer_activity_bv83.svg" alt="illustration">
         </div>
-        <div class="py-4 px-4 flex flex-col items-center max-w-2xl text-gray-300">
-          <h2 class="second-subtitle text-4xl text-gray-200" data-aos="fade-up">I'm a developer with passion.</h2>
-          <p class="text-lg" data-aos="fade-up" data-aos-delay="50">
+        <div class="py-4 px-4 max-w-2xl text-gray-300">
+          <h2 class="second-subtitle text-4xl text-gray-200">I'm a developer with passion.</h2>
+          <p class="text-lg">
             I'm always working on something. I'm either rebuilding my personal portfolio website or working on some other side project.
           </p>
-          <p class="text-lg" data-aos="fade-up" data-aos-delay="100">Always pushing to use the latest, but still mature, technologies.</p>
+          <p class="text-lg">Always pushing to use the latest, but still mature, technologies.</p>
           <div data-aos="fade-up" data-aos-delay="150">
             <nuxt-link to="/proficiencies" class="button">Check out my skills</nuxt-link>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="py-48">
-      <div class="container mx-auto text-center flex justify-around items-center flex-col sm:flex-row">
-        <div class="py-4 px-4 flex flex-col items-center max-w-2xl">
-          <h2 class="second-subtitle text-4xl" data-aos="fade-up">Current occupation.</h2>
-          <p class="text-xl" data-aos="fade-up" data-aos-delay="50">Employed full-time and freelancing on the side.</p>
-          <div data-aos="fade-up" data-aos-delay="100">
-            <a class="button" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a>
-          </div>
-        </div>
-        <div class="w-64 h-64 flex-shrink-0">
-          <img data-aos="fade-up-left" src="/undraw_work_time_lhoj.svg" alt="illustration">
         </div>
       </div>
     </div>
@@ -81,12 +91,35 @@
 </script>
 
 <style scoped>
-  .hero {
-    background-image: linear-gradient(
-      rgba(20,20,20, .32),
-      rgba(20,20,20, .7)),
-      url('https://res.cloudinary.com/jrtell/image/upload/c_fill,e_blur:300,f_auto,h_800,q_auto,w_1920/v1568554332/jrtell/fabian-grohs-P2SkP_PXhlU-unsplash');
-    background-repeat: no-repeat;
+  /*.illustrations {*/
+  /*  @apply absolute inset-0 overflow-hidden;*/
+  /*}*/
+
+  /*.illustrations__dev {*/
+  /*  height: 60rem;*/
+  /*  width: 60rem;*/
+  /*  right: -250px;*/
+  /*  opacity: 0.5;*/
+
+  /*  @apply absolute z-0 pointer-events-none;*/
+  /*}*/
+
+  .illustration {
+    @apply absolute z-0 pointer-events-none select-none;
+  }
+
+  .dev-illustration {
+    height: 60rem;
+    width: 60rem;
+    right: -250px;
+    top: 0;
+  }
+
+  .hire-illustration {
+    height: 40rem;
+    width: 40rem;
+    left: -100px;
+    top: 0;
   }
 
   .skewed {
