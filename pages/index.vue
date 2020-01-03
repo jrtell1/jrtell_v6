@@ -1,23 +1,23 @@
 <template>
   <div>
     <div>
-      <div class="container mx-auto pt-48 pb-64 flex justify-center">
+      <div class="container mx-auto sm:pt-48 sm:pb-64 flex justify-center">
         <div class="p-4 w-full max-w-5xl relative">
-          <div>
-            <div class="z-10 w-full max-w-md">
-              <h1 class="text-3xl sm:text-5xl font-bold text-indigo-600" data-aos="fade-right" data-aos-delay="50">
-                John-Robin Tell
-              </h1>
-              <h2 class="text-2xl sm:text-3xl" data-aos="fade-right" data-aos-delay="100">
-                Fullstack Web Developer and consultant based out of <span class="text-indigo-400">Borås</span>
-              </h2>
-              <div data-aos="fade-up" data-aos-delay="150">
-                <a class="button" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a>
-              </div>
+          <img class="w-64 h-64 mx-auto block sm:hidden" data-aos="fade-left" src="/undraw_work_time_lhoj.svg" alt="illustration">
+
+          <div class="z-10 w-full max-w-md">
+            <h1 class="text-3xl sm:text-5xl font-bold text-indigo-600" data-aos="fade-right" data-aos-delay="50">
+              John-Robin Tell
+            </h1>
+            <h2 class="text-2xl sm:text-3xl" data-aos="fade-right" data-aos-delay="100">
+              Fullstack Web Developer and consultant based out of <span class="text-indigo-400">Borås</span>
+            </h2>
+            <div data-aos="fade-up" data-aos-delay="150">
+              <a class="button" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a>
             </div>
           </div>
 
-          <div class="hidden lg:block opacity-75">
+          <div class="hidden sm:block opacity-75">
             <img class="illustration dev-illustration" data-aos="fade-left" src="/undraw_work_time_lhoj.svg" alt="illustration">
           </div>
         </div>
@@ -28,7 +28,7 @@
 <!--      </div>-->
     </div>
 
-    <div class="container mx-auto py-64 flex justify-between flex-col sm:flex-row relative">
+    <div class="container mx-auto py-24 sm:py-64 flex justify-between flex-col sm:flex-row relative">
       <div class="hidden lg:block opacity-75">
         <img class="illustration hire-illustration" data-aos="fade-right" src="/undraw_version_control_9bpv.svg" alt="illustration">
       </div>
@@ -51,7 +51,7 @@
       </div>
     </div>
 
-    <div class="container mx-auto pb-64 flex flex-col items-center">
+    <div class="container mx-auto sm:pb-64 flex flex-col items-center">
       <div class="px-4">
         <h2 class="second-subtitle text-4xl">
           Some of my <span class="text-indigo-400">clients</span>
@@ -121,14 +121,14 @@
   .hire-illustration {
     height: 40rem;
     width: 40rem;
-    left: -120px;
+    right: 800px;
     top: 50px;
   }
 
   .git-illustration {
     height: 40rem;
     width: 40rem;
-    left: -100px;
+    right: 700px;
     top: -200px;
   }
 
