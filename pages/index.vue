@@ -3,7 +3,7 @@
     <div>
       <div class="container mx-auto sm:pt-48 sm:pb-64 flex justify-center">
         <div class="p-4 w-full max-w-5xl relative">
-          <img class="w-64 h-64 mx-auto block sm:hidden" data-aos="fade-left" src="/undraw_work_time_lhoj.svg" alt="illustration">
+          <img class="w-full mx-auto block mb-8 sm:hidden" data-aos="fade-left" src="/undraw_work_time_lhoj.svg" alt="illustration">
 
           <div class="z-10 w-full max-w-md">
             <h1 class="text-3xl sm:text-5xl font-bold text-indigo-600" data-aos="fade-right" data-aos-delay="50">
@@ -35,7 +35,7 @@
 
       <div class="max-w-3xl p-4 z-10">
         <h2 class="second-subtitle text-4xl">
-          Hire me for <span class="text-indigo-400">projects</span> and <span class="text-indigo-400">consulting</span>
+          Hire me for <span class="text-indigo-500">projects</span> and <span class="text-indigo-500">consulting</span>
         </h2>
         <p class="text-lg my-4">
           I'm an incredibly driven and quick learner with a mind for producing and delivering real results!
@@ -54,7 +54,7 @@
     <div class="container mx-auto sm:pb-64 flex flex-col items-center">
       <div class="px-4">
         <h2 class="second-subtitle text-4xl">
-          Some of my <span class="text-indigo-400">clients</span>
+          Some of my <span class="text-indigo-500">clients</span>
         </h2>
         <div class="sm:flex justify-around my-8 shadow-lg rounded-lg" data-aos="fade-up">
           <img class="w-48 p-4" src="/Rebel_Walls_Logo_tag.svg" alt="illustration">
@@ -73,7 +73,7 @@
           <img class="illustration git-illustration" data-aos="fade-right" src="/undraw_coding_6mjf.svg" alt="illustration">
         </div>
         <div class="py-4 px-4 max-w-2xl z-10">
-          <h2 class="second-subtitle text-4xl">I'm a developer with <span class="text-indigo-400">passion</span></h2>
+          <h2 class="second-subtitle text-4xl">I'm a developer with <span class="text-indigo-500">passion</span></h2>
           <p class="text-lg my-4">
             I'm always working on something. I'm either rebuilding my personal portfolio website or working on some other side project.
           </p>
