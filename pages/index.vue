@@ -37,31 +37,26 @@
         <h2 class="second-subtitle text-4xl">
           Hire me for <span class="text-indigo-400">projects</span> and <span class="text-indigo-400">consulting</span>
         </h2>
-        <p class="text-lg">
-          I'm an incredibly driven and quick learner with a mind for producing and delivering results!
+        <p class="text-lg my-4">
+          I'm an incredibly driven and quick learner with a mind for producing and delivering real results!
+        </p>
+        <p class="text-lg my-4">
+          I've built and worked on all kind of systems, like websites, blogs, professional administrationsystems and dashboards. I'm even building my own browser game.
+          <br>If there's something you want done, send me a message, I can most likely do it.
         </p>
 
-        <div data-aos="fade-up" data-aos-delay="150">
+        <div data-aos="fade-up">
           <nuxt-link class="button" to="/projects">Check out some projects of mine</nuxt-link>
         </div>
       </div>
     </div>
 
-    <div class="container mx-auto py-32 text-center flex justify-around items-center flex-col sm:flex-row">
-      <div class="max-w-2xl p-4">
-        <h2 class="second-subtitle text-3xl">
-          I create and design fully-featured web applications.
-        </h2>
-        <p class="text-lg">I build fast loading and reliable websites and web applications, with design and security in mind.</p>
-        <p class="text-lg">I utilize modern frameworks and best practices, while still creating a unique design and tailored solution. For an awesome result.</p>
-
-        <div class="flex items-center justify-center" data-aos="fade-up" data-aos-delay="150">
-          <nuxt-link class="button" to="/projects">Check out my latest projects</nuxt-link>
-        </div>
-      </div>
-
-      <div class="w-64 h-64 flex-shrink-0">
-        <img data-aos="fade-left" src="/undraw_laravel_and_vue_59tp.svg" alt="illustration">
+    <div class="container mx-auto pb-64 flex flex-col items-center">
+      <h2 class="second-subtitle text-4xl">
+        My <span class="text-indigo-400">clients</span> span from both businesses and individuals
+      </h2>
+      <div class="py-8">
+        <img class="w-48" data-aos="fade-up" src="/Rebel_Walls_Logo_tag.svg" alt="illustration">
       </div>
     </div>
 
@@ -71,12 +66,12 @@
           <img class="illustration git-illustration" data-aos="fade-right" src="/undraw_coding_6mjf.svg" alt="illustration">
         </div>
         <div class="py-4 px-4 max-w-2xl z-10">
-          <h2 class="second-subtitle text-4xl">I'm a developer with passion.</h2>
-          <p class="text-lg">
+          <h2 class="second-subtitle text-4xl">I'm a developer with <span class="text-indigo-400">passion</span></h2>
+          <p class="text-lg my-4">
             I'm always working on something. I'm either rebuilding my personal portfolio website or working on some other side project.
           </p>
-          <p class="text-lg">Always pushing to use the latest, but still mature, technologies.</p>
-          <div data-aos="fade-up" data-aos-delay="150">
+          <p class="text-lg mt-4">Always pushing to use the latest, but still mature, technologies.</p>
+          <div data-aos="fade-up">
             <nuxt-link to="/proficiencies" class="button">Check out my skills</nuxt-link>
           </div>
         </div>
