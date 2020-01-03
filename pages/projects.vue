@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto pt-20">
-    <div class="mb-12">
+    <div class="mb-12 px-4">
       <h1 class="text-3xl sm:text-5xl font-bold text-indigo-600" data-aos="fade-right" data-aos-delay="50">
         Projects
       </h1>
