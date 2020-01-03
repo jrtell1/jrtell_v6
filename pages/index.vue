@@ -67,7 +67,7 @@
       </div>
     </div>
 
-    <div class="bg-indigo-100 py-64 skewed relative">
+    <div class="bg-gray-100 py-64 skewed relative">
       <div class="container mx-auto flex justify-around flex-col sm:flex-row">
         <div class="hidden lg:block opacity-75">
           <img class="illustration git-illustration" data-aos="fade-right" src="/undraw_coding_6mjf.svg" alt="illustration">
