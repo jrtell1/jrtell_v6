@@ -52,11 +52,18 @@
     </div>
 
     <div class="container mx-auto pb-64 flex flex-col items-center">
-      <h2 class="second-subtitle text-4xl">
-        What my <span class="text-indigo-400">clients</span> say
-      </h2>
-      <div class="py-12">
-        <img class="w-48" data-aos="fade-up" src="/Rebel_Walls_Logo_tag.svg" alt="illustration">
+      <div>
+        <h2 class="second-subtitle text-4xl">
+          Some of my <span class="text-indigo-400">clients</span>
+        </h2>
+        <div class="flex justify-around my-8 shadow-md">
+          <img class="w-48 px-4" data-aos="fade-up" src="/Rebel_Walls_Logo_tag.svg" alt="illustration">
+          <div class="px-4">
+            <h3 class="text-2xl mt-4">Rebel Walls</h3>
+            <p>A high-quality premium wall murals producing business with customers all around the globe.</p>
+            <a class="button" href="https://rebelwalls.com/" target="_blank" rel="noopener noreferrer">Check them out</a>
+          </div>
+        </div>
       </div>
     </div>
 
