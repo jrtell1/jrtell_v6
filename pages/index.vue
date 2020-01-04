@@ -47,7 +47,7 @@
       </div>
     </div>
 
-    <div class="container mx-auto sm:pb-32 flex flex-col items-center">
+    <div class="container mx-auto pb-32 flex flex-col items-center">
       <div class="px-4">
         <h2 class="second-subtitle text-4xl">
           Some of my <span class="text-indigo-500">clients</span>
