@@ -22,13 +22,9 @@
           </div>
         </div>
       </div>
-
-<!--      <div class="illustrations hidden lg:block">-->
-<!--        <img class="illustrations__dev" data-aos="fade-left" src="/undraw_work_time_lhoj.svg" alt="illustration">-->
-<!--      </div>-->
     </div>
 
-    <div class="container mx-auto py-24 sm:py-64 flex justify-between flex-col sm:flex-row relative">
+    <div class="container mx-auto py-24 sm:pt-64 sm:pb-48 flex justify-between flex-col sm:flex-row relative">
       <div class="hidden lg:block opacity-75">
         <img class="illustration hire-illustration" data-aos="fade-right" src="/undraw_version_control_9bpv.svg" alt="illustration">
       </div>
@@ -51,7 +47,7 @@
       </div>
     </div>
 
-    <div class="container mx-auto sm:pb-64 flex flex-col items-center">
+    <div class="container mx-auto sm:pb-32 flex flex-col items-center">
       <div class="px-4">
         <h2 class="second-subtitle text-4xl">
           Some of my <span class="text-indigo-500">clients</span>
@@ -67,20 +63,18 @@
       </div>
     </div>
 
-    <div class="bg-gray-100 py-64 skewed">
-      <div class="container mx-auto flex justify-between flex-col sm:flex-row relative">
-        <div class="hidden lg:block opacity-75">
-          <img class="illustration git-illustration" data-aos="fade-right" src="/undraw_coding_6mjf.svg" alt="illustration">
-        </div>
-        <div class="py-4 px-4 max-w-2xl z-10">
-          <h2 class="second-subtitle text-4xl">I'm a developer with <span class="text-indigo-500">passion</span></h2>
-          <p class="text-lg my-4">
-            I'm always working on something. I'm either rebuilding my personal portfolio website or working on some other side project.
-          </p>
-          <p class="text-lg mt-4">Always pushing to use the latest, but still mature, technologies.</p>
-          <div data-aos="fade-up">
-            <nuxt-link to="/proficiencies" class="button">Check out my skills</nuxt-link>
-          </div>
+    <div class="container mx-auto sm:py-64 flex justify-between flex-col sm:flex-row relative">
+      <div class="hidden lg:block opacity-75">
+        <img class="illustration git-illustration" data-aos="fade-right" src="/undraw_coding_6mjf.svg" alt="illustration">
+      </div>
+      <div class="py-4 px-4 max-w-2xl z-10">
+        <h2 class="second-subtitle text-4xl">I'm a developer with <span class="text-indigo-500">passion</span></h2>
+        <p class="text-lg my-4">
+          I'm always working on something. I'm either rebuilding my personal portfolio website or working on some other side project.
+        </p>
+        <p class="text-lg mt-4">Always pushing to use the latest, but still mature, technologies.</p>
+        <div data-aos="fade-up">
+          <nuxt-link to="/proficiencies" class="button">Check out my skills</nuxt-link>
         </div>
       </div>
     </div>
@@ -94,19 +88,6 @@
 </script>
 
 <style scoped>
-  /*.illustrations {*/
-  /*  @apply absolute inset-0 overflow-hidden;*/
-  /*}*/
-
-  /*.illustrations__dev {*/
-  /*  height: 60rem;*/
-  /*  width: 60rem;*/
-  /*  right: -250px;*/
-  /*  opacity: 0.5;*/
-
-  /*  @apply absolute z-0 pointer-events-none;*/
-  /*}*/
-
   .illustration {
     @apply absolute z-0 pointer-events-none select-none;
   }
@@ -129,11 +110,7 @@
     height: 40rem;
     width: 40rem;
     right: 700px;
-    top: -200px;
-  }
-
-  .skewed {
-    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0 80%);
+    top: 50px;
   }
 
   .second-subtitle {
