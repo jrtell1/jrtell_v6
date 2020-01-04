@@ -27,8 +27,7 @@
             <li>Socket.io</li>
             <li>Tailwind.css</li>
             <li>Bulma</li>
-            <li>AnimeJs</li>
-            <li>AOS</li>
+            <li>GraphQl</li>
           </ul>
         </div>
         <div class="proficiencies__column">
