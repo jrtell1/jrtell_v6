@@ -80,7 +80,7 @@
     </div>
 
     <div class="container mx-auto pb-64 pt-48 flex sm:items-center flex-col relative">
-      <h2 class="second-subtitle text-3xl px-4 sm:text-center">Just send me a message<br>and lets chat</h2>
+      <h2 class="second-subtitle text-3xl px-4 sm:text-center">Send me a message<br>and lets chat</h2>
       <div class="px-4" data-aos="fade-up">
         <a class="button" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a>
       </div>
