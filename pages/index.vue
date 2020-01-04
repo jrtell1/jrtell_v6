@@ -38,7 +38,7 @@
         </p>
         <p class="text-lg mt-4">
           I've built and worked on all kind of systems, like websites, blogs, professional administrationsystems and dashboards. I'm even building my own browser game!
-          <br>If there's something you want done, send me a message, I can most likely do it.
+          <br>If there's something you want done, send me a message and I'll get back to you.
         </p>
 
         <div data-aos="fade-up">
@@ -78,6 +78,16 @@
         </div>
       </div>
     </div>
+
+    <div class="container mx-auto pb-64 pt-48 flex sm:items-center flex-col relative">
+      <h2 class="second-subtitle text-3xl px-4 sm:text-center">Just send me a message<br>and lets chat</h2>
+      <div class="px-4" data-aos="fade-up">
+        <a class="button" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a>
+      </div>
+      <div class="hidden lg:block opacity-75">
+        <img class="illustration contact-illustration" data-aos="fade-right" src="/undraw_envelope_n8lc.svg" alt="illustration">
+      </div>
+    </div>
   </div>
 </template>
 
@@ -111,6 +121,13 @@
     width: 40rem;
     right: 700px;
     top: 50px;
+  }
+
+  .contact-illustration {
+    height: 40rem;
+    width: 40rem;
+    left: 750px;
+    top: -20px;
   }
 
   .second-subtitle {
