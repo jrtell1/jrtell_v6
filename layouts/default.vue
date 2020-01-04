@@ -40,6 +40,10 @@
     opacity: 0;
   }
 
+  ::selection {
+    @apply bg-indigo-500 text-white;
+  }
+
   .button {
     transition: all .25s ease-out;
     @apply inline-block my-6 px-8 bg-indigo-500 rounded text-white cursor-pointer h-12 inline-flex items-center;
