@@ -36,7 +36,7 @@
         <p class="text-lg my-4">
           I'm an incredibly driven and quick learner with a mind for producing and delivering real results!
         </p>
-        <p class="text-lg my-4">
+        <p class="text-lg mt-4">
           I've built and worked on all kind of systems, like websites, blogs, professional administrationsystems and dashboards. I'm even building my own browser game!
           <br>If there's something you want done, send me a message, I can most likely do it.
         </p>
