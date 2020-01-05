@@ -35,7 +35,7 @@
           I'm an incredibly driven and quick learner with a mind for producing and delivering real results!
         </p>
         <p class="text-lg mt-4">
-          I've built and worked on all kind of systems, like websites, blogs, professional administrationsystems and dashboards. I'm even building my own browser game!
+          I've built and worked on all kind of systems, like websites, blogs, professional administration systems and dashboards. I'm even building my own browser game!
           <br>If there's something you want done, send me a message and I'll get back to you.
         </p>
 
@@ -76,6 +76,46 @@
         </div>
       </div>
     </div>
+
+<!--    <div class="container mx-auto sm:pb-32 pt-32 flex lg:items-center flex-col relative">-->
+<!--      <h2 class="second-subtitle text-4xl px-4 lg:text-center">What can I do for <span class="text-indigo-500">you</span>?</h2>-->
+
+<!--      <div class="sm:flex justify-around items-center my-8" data-aos="fade-up">-->
+<!--        <div class="flex-1 p-4">-->
+<!--          <img class="w-full shadow-md" src="https://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_800/v1565694490/jrtell/Opera_Snapshot_2019-09-15_174252_localhost">-->
+<!--        </div>-->
+<!--        <div class="flex-1 px-4">-->
+<!--          <h2 class="second-subtitle text-3xl">Websites</h2>-->
+<!--          <p class="text-lg my-4">-->
+<!--            I design and build websites, from the ground up. Simple ones like this one, and advanced ones with all kinds of features.-->
+<!--          </p>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <div class="sm:flex sm:flex-row-reverse justify-around items-center my-8" data-aos="fade-up">-->
+<!--        <div class="flex-1 p-4">-->
+<!--          <img class="w-full shadow-md" src="https://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_800/v1565694490/jrtell/Opera_Snapshot_2019-09-15_174252_localhost">-->
+<!--        </div>-->
+<!--        <div class="flex-1 px-4">-->
+<!--          <h2 class="second-subtitle text-3xl">Administration systems</h2>-->
+<!--          <p class="text-lg my-4">-->
+<!--            I've worked on and built administration systems for multiple businesses. Both simpler ones and those who are fully tailored for the businesses need.-->
+<!--          </p>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      <div class="sm:flex justify-around items-center my-8" data-aos="fade-up">-->
+<!--        <div class="flex-1 p-4">-->
+<!--          <img class="w-full shadow-md" src="https://res.cloudinary.com/jrtell/image/upload/c_scale,f_auto,q_auto,w_800/v1565694490/jrtell/Opera_Snapshot_2019-09-15_174252_localhost">-->
+<!--        </div>-->
+<!--        <div class="flex-1 px-4">-->
+<!--          <h2 class="second-subtitle text-3xl">Automations</h2>-->
+<!--          <p class="text-lg my-4">-->
+<!--            Do you have tedious tasks that you believe could be automated with software?-->
+<!--          </p>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
 
     <div class="container mx-auto pb-64 pt-48 flex lg:items-center flex-col relative">
       <h2 class="second-subtitle text-3xl px-4 lg:text-center">Send me a message<br>and lets chat</h2>
