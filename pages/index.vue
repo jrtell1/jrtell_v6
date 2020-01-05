@@ -1,10 +1,8 @@
 <template>
   <div>
     <div>
-      <div class="container mx-auto sm:pt-48 sm:pb-64 flex justify-center">
+      <div class="container mx-auto sm:pt-48 pb-64 flex justify-center">
         <div class="p-4 w-full max-w-5xl relative">
-          <img class="w-full mx-auto block mb-8 sm:hidden" data-aos="fade-left" src="/undraw_work_time_lhoj.svg" alt="illustration">
-
           <div class="z-10 w-full max-w-md">
             <h1 class="text-3xl sm:text-5xl font-bold text-indigo-600" data-aos="fade-right" data-aos-delay="50">
               John-Robin Tell
@@ -17,7 +15,7 @@
             </div>
           </div>
 
-          <div class="hidden sm:block opacity-75">
+          <div class="opacity-75">
             <img class="illustration dev-illustration" data-aos="fade-left" src="/undraw_work_time_lhoj.svg" alt="illustration">
           </div>
         </div>
@@ -63,7 +61,7 @@
       </div>
     </div>
 
-    <div class="container mx-auto sm:py-64 flex justify-between flex-col sm:flex-row relative">
+    <div class="container mx-auto lg:py-64 flex justify-between flex-col sm:flex-row relative">
       <div class="hidden lg:block opacity-75">
         <img class="illustration git-illustration" data-aos="fade-right" src="/undraw_coding_6mjf.svg" alt="illustration">
       </div>
@@ -79,12 +77,12 @@
       </div>
     </div>
 
-    <div class="container mx-auto pb-64 pt-48 flex sm:items-center flex-col relative">
-      <h2 class="second-subtitle text-3xl px-4 sm:text-center">Send me a message<br>and lets chat</h2>
+    <div class="container mx-auto pb-64 pt-48 flex lg:items-center flex-col relative">
+      <h2 class="second-subtitle text-3xl px-4 lg:text-center">Send me a message<br>and lets chat</h2>
       <div class="px-4" data-aos="fade-up">
         <a class="button" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a>
       </div>
-      <div class="hidden lg:block opacity-75">
+      <div class="opacity-75">
         <img class="illustration contact-illustration" data-aos="fade-right" src="/undraw_envelope_n8lc.svg" alt="illustration">
       </div>
     </div>
@@ -105,8 +103,17 @@
   .dev-illustration {
     height: 60rem;
     width: 60rem;
-    left: 450px;
-    top: -300px;
+    left: 50px;
+    top: -100px;
+  }
+
+  @screen sm {
+    .dev-illustration {
+      height: 60rem;
+      width: 60rem;
+      left: 450px;
+      top: -300px;
+    }
   }
 
   .hire-illustration {
@@ -124,10 +131,19 @@
   }
 
   .contact-illustration {
-    height: 40rem;
-    width: 40rem;
-    left: 750px;
-    top: -20px;
+    height: 30rem;
+    width: 30rem;
+    left: 200px;
+    top: 150px;
+  }
+
+  @screen lg {
+    .contact-illustration {
+      height: 40rem;
+      width: 40rem;
+      left: 750px;
+      top: -20px;
+    }
   }
 
   .second-subtitle {
