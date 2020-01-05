@@ -1,6 +1,6 @@
-# herbo
+# JRTELL
 
-> Herbo prototype concept
+> JRTELL personal webiste
 
 ## Build Setup
 
