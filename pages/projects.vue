@@ -5,7 +5,7 @@
         Projects
       </h1>
       <h2 class="text-2xl sm:text-3xl" data-aos="fade-right" data-aos-delay="100">
-        Below are my latest personal projects of note
+        Below are some of my latest personal projects of note
       </h2>
     </div>
 
