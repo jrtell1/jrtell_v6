@@ -8,8 +8,6 @@
         <div class="flex-grow flex sm:justify-end">
           <nuxt-link to="/" class="link link--home">Home</nuxt-link>
           <nuxt-link to="/projects" class="link">Projects</nuxt-link>
-<!--          <nuxt-link to="/work-history" class="link">Work history</nuxt-link>-->
-          <nuxt-link to="/proficiencies" class="link">Proficiencies</nuxt-link>
         </div>
       </div>
     </nav>

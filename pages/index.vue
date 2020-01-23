@@ -8,7 +8,7 @@
               John-Robin Tell
             </h1>
             <h2 class="text-2xl sm:text-3xl" data-aos="fade-right" data-aos-delay="100">
-              Fullstack Web Developer and consultant based out of <span class="text-indigo-400">Borås</span>
+              Fullstack Web Developer and freelancer based out of <span class="text-indigo-400">Borås</span>
             </h2>
             <div data-aos="fade-up" data-aos-delay="150">
               <a class="button" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a>
@@ -22,7 +22,61 @@
       </div>
     </div>
 
-    <div class="container mx-auto py-24 sm:pt-64 sm:pb-48 flex justify-between flex-col sm:flex-row relative">
+    <div class="container mx-auto py-24 lg:py-64 flex justify-between flex-col sm:flex-row relative">
+      <div class="hidden lg:block opacity-75">
+        <img class="illustration git-illustration" data-aos="fade-right" src="/undraw_coding_6mjf.svg" alt="illustration">
+      </div>
+      <div class="py-4 px-4 max-w-2xl z-10">
+        <h2 class="second-subtitle text-4xl">I'm a developer with <span class="text-indigo-500">passion</span>!</h2>
+        <p class="text-lg my-4">
+          For as long as I can remember I've had an unending urge to create and build stuff!<br>
+          I'm always working on improving myself, my character, my mind and my skills. I've always sought self-improvement,
+          and the goal of becoming the best version of myself.
+        </p>
+        <p class="text-lg my-4">
+          When I discovered code and development I knew I had found my calling. Now I write code and work on both my own projects and others every, single, day!
+          I'm continually learning and creating. And I cannot imagine I'll ever stop!
+        </p>
+        <div data-aos="fade-up">
+          <h3 class="my-4 text-xl font-semibold">Technologies I've worked with recently and absolutely love:</h3>
+          <ul class="flex flex-wrap">
+            <li class="p-2">JavaScript</li>
+            <li class="p-2">VueJs</li>
+            <li class="p-2">NuxtJs</li>
+            <li class="p-2">TailwindCss</li>
+            <li class="p-2">Typescript</li>
+            <li class="p-2">Socket.io</li>
+          </ul>
+          <ul class="flex flex-wrap">
+            <li class="p-2">Docker</li>
+            <li class="p-2">Swoole</li>
+            <li class="p-2">Laravel</li>
+            <li class="p-2">Lumen</li>
+            <li class="p-2">PHP</li>
+            <li class="p-2">Redis</li>
+            <li class="p-2">NodeJs</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mx-auto pb-24 flex flex-col items-center">
+      <div class="px-4">
+        <h2 class="second-subtitle text-4xl">
+          Some of my <span class="text-indigo-500">clients</span>
+        </h2>
+        <div class="sm:flex justify-around my-8 shadow-lg rounded-lg" data-aos="fade-up">
+          <img class="w-48 p-4" src="/Rebel_Walls_Logo_tag.svg" alt="illustration">
+          <div class="px-4">
+            <h3 class="text-2xl font-semibold mt-4">Rebel Walls</h3>
+            <p>A high-quality premium wall murals producing business with customers all around the globe.</p>
+            <a class="button" href="https://rebelwalls.com/" target="_blank" rel="noopener noreferrer">Check them out</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mx-auto py-12 sm:pt-64 sm:pb-48 flex justify-between flex-col sm:flex-row relative">
       <div class="hidden lg:block opacity-75">
         <img class="illustration hire-illustration" data-aos="fade-right" src="/undraw_version_control_9bpv.svg" alt="illustration">
       </div>
@@ -41,38 +95,6 @@
 
         <div data-aos="fade-up">
           <nuxt-link class="button" to="/projects">Check out some projects of mine</nuxt-link>
-        </div>
-      </div>
-    </div>
-
-    <div class="container mx-auto pb-32 flex flex-col items-center">
-      <div class="px-4">
-        <h2 class="second-subtitle text-4xl">
-          Some of my <span class="text-indigo-500">clients</span>
-        </h2>
-        <div class="sm:flex justify-around my-8 shadow-lg rounded-lg" data-aos="fade-up">
-          <img class="w-48 p-4" src="/Rebel_Walls_Logo_tag.svg" alt="illustration">
-          <div class="px-4">
-            <h3 class="text-2xl font-semibold mt-4">Rebel Walls</h3>
-            <p>A high-quality premium wall murals producing business with customers all around the globe.</p>
-            <a class="button" href="https://rebelwalls.com/" target="_blank" rel="noopener noreferrer">Check them out</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container mx-auto lg:py-64 flex justify-between flex-col sm:flex-row relative">
-      <div class="hidden lg:block opacity-75">
-        <img class="illustration git-illustration" data-aos="fade-right" src="/undraw_coding_6mjf.svg" alt="illustration">
-      </div>
-      <div class="py-4 px-4 max-w-2xl z-10">
-        <h2 class="second-subtitle text-4xl">I'm a developer with <span class="text-indigo-500">passion</span></h2>
-        <p class="text-lg my-4">
-          I'm always working on something. I'm either rebuilding my personal portfolio website or working on some other side project.
-        </p>
-        <p class="text-lg mt-4">Always pushing to use the latest, but still mature, technologies.</p>
-        <div data-aos="fade-up">
-          <nuxt-link to="/proficiencies" class="button">Check out my skills</nuxt-link>
         </div>
       </div>
     </div>
