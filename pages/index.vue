@@ -66,8 +66,23 @@
           Some of my <span class="text-indigo-500">clients</span>
         </h2>
         <div class="sm:flex justify-around my-8 shadow-lg rounded-lg" data-aos="fade-up">
-          <img class="w-48 p-4" src="/Rebel_Walls_Logo_tag.svg" alt="illustration">
-          <div class="px-4">
+          <div class="w-48 p-4 flex-shrink-0 flex items-center">
+            <img src="/batkollen.png" alt="Båtkollen logo">
+          </div>
+          <div class="px-4 flex-grow">
+            <h3 class="text-2xl font-semibold mt-4">Båtkollen</h3>
+            <p>
+              A swedish service where people can create requests for quotes on boat repairs and other boat related services. I built their
+              site and now helping with maintenance and development of further features.
+            </p>
+            <a class="button" href="https://batkollen.se/" target="_blank" rel="noopener noreferrer">Check them out</a>
+          </div>
+        </div>
+        <div class="sm:flex justify-around my-8 shadow-lg rounded-lg" data-aos="fade-up">
+          <div class="w-48 p-4 flex-shrink-0 flex items-center">
+            <img class="w-48 p-4" src="/Rebel_Walls_Logo_tag.svg" alt="Rebel Walls logo">
+          </div>
+          <div class="px-4 flex-grow">
             <h3 class="text-2xl font-semibold mt-4">Rebel Walls</h3>
             <p>A high-quality premium wall murals producing business with customers all around the globe.</p>
             <a class="button" href="https://rebelwalls.com/" target="_blank" rel="noopener noreferrer">Check them out</a>
