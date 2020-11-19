@@ -144,6 +144,10 @@
       <div class="px-4" data-aos="fade-up">
         <a class="button" href="https://www.linkedin.com/in/john-robin-tell-b8bb235b/" target="_blank" rel="noopener noreferrer">Contact me on LinkedIn</a>
       </div>
+      <div class="px-4 text-xl mb-4" data-aos="fade-up">Or at</div>
+      <div class="px-4 text-3xl" data-aos="fade-up">
+        <span>john-robin@jrtell.se</span>
+      </div>
       <div class="opacity-75">
         <img class="illustration contact-illustration" data-aos="fade-right" src="/undraw_envelope_n8lc.svg" alt="illustration">
       </div>
@@ -196,15 +200,15 @@
     height: 30rem;
     width: 30rem;
     left: 200px;
-    top: 150px;
+    top: 290px;
   }
 
   @screen lg {
     .contact-illustration {
       height: 40rem;
       width: 40rem;
-      left: 750px;
-      top: -20px;
+      left: 800px;
+      top: 80px;
     }
   }
 
