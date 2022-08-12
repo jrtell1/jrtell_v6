@@ -161,7 +161,7 @@
       </div>
       <div class="px-4 text-xl mb-4" data-aos="fade-up">Or at</div>
       <div class="px-4 text-3xl" data-aos="fade-up">
-        <span>john-robin@jrtell.se</span>
+        <span>johnrobintell@gmail.com</span>
       </div>
       <div class="opacity-75">
         <img class="illustration contact-illustration" data-aos="fade-right" src="/undraw_envelope_n8lc.svg" alt="illustration">
